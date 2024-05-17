@@ -88,8 +88,8 @@ const CountryGame = () => {
         <>
 
         <div className=" flex gap-4 justify-end ">
-            <button onClick={()=>setCode(false)} className='p-2 border rounded-md '>Ui</button>
-            <button onClick={()=>setCode(true)} className='p-2 border rounded-md '><CodeIcon/> </button>
+            <button onClick={()=>setCode(false)} className={` p-2 border rounded-md  ${!code ? 'border-green-600 text-green-600' : ''}`}>Ui</button>
+            <button onClick={()=>setCode(true)}className={` p-2 border rounded-md  ${code ? 'border-green-600 text-green-600' : ''}`}><CodeIcon/> </button>
         </div>
 
         <div className='mx-auto'>
