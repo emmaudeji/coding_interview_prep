@@ -1,7 +1,6 @@
 "use client"
 
 // Build Country Capital Game | Microsoft Frontend Interview Question | JavaScript | React.js
-// https://devtools.tech/questions/s/build-country-capital-game-or-microsoft-frontend-interview-question-or-javascript-or-react-js---qid---yPb5g7MLCSf6j2F3qjqj
 
 import React, { useEffect, useState } from 'react'
 import Code from './Code';
