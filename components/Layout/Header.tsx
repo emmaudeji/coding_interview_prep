@@ -7,6 +7,7 @@ import React from 'react'
 const navlinks = [
     {label: 'Country Game', link: '/countrygame'},
     {label: 'Task Manager', link: '/todo_app'},
+    {label: 'Fill Boxes', link: '/fill_boxes'},
 ]
 
 const Header = () => {
