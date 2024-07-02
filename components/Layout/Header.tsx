@@ -8,6 +8,7 @@ const navlinks = [
     {label: 'Country Game', link: '/countrygame'},
     {label: 'Task Manager', link: '/todo_app'},
     {label: 'Fill Boxes', link: '/fill_boxes'},
+    {label: 'Photo gallery', link: '/gallery'},
 ]
 
 const Header = () => {
